@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.Core", "HarpiaCalc.Core\HarpiaCalc.Core.csproj", "{1511261A-5667-4CA3-8B53-FF5528EA3B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.CLI", "HarpiaCalc.CLI\HarpiaCalc.CLI.csproj", "{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.WpfApp", "HarpiaCalc.WpfApp\HarpiaCalc.WpfApp.csproj", "{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1511261A-5667-4CA3-8B53-FF5528EA3B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1511261A-5667-4CA3-8B53-FF5528EA3B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1511261A-5667-4CA3-8B53-FF5528EA3B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1511261A-5667-4CA3-8B53-FF5528EA3B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8B78345-EF34-43D4-B0B6-AB650B64E774}
+	EndGlobalSection
+EndGlobal
