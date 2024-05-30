@@ -1,6 +1,6 @@
 ﻿namespace HarpiaCalc.Core
 {
-    public class Class1
+    public class SvdCalculatorOptions
     {
 
     }
