@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.Core", "HarpiaCalc.Core\HarpiaCalc.Core.csproj", "{1511261A-5667-4CA3-8B53-FF5528EA3B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarpiaCalc.Core", "HarpiaCalc.Core\HarpiaCalc.Core.csproj", "{1511261A-5667-4CA3-8B53-FF5528EA3B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.CLI", "HarpiaCalc.CLI\HarpiaCalc.CLI.csproj", "{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarpiaCalc.CLI", "HarpiaCalc.CLI\HarpiaCalc.CLI.csproj", "{0FB2801F-0A3D-46DC-9367-D90D5EF120FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.WpfApp", "HarpiaCalc.WpfApp\HarpiaCalc.WpfApp.csproj", "{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarpiaCalc.WpfApp", "HarpiaCalc.WpfApp\HarpiaCalc.WpfApp.csproj", "{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpiaCalc.Tests", "HarpiaCalc.Tests\HarpiaCalc.Tests.csproj", "{4E6423A7-E576-41EC-859C-34002DC45294}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B455B4-BCE6-4170-8F52-4BBFE9FC928B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6423A7-E576-41EC-859C-34002DC45294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6423A7-E576-41EC-859C-34002DC45294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6423A7-E576-41EC-859C-34002DC45294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6423A7-E576-41EC-859C-34002DC45294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
