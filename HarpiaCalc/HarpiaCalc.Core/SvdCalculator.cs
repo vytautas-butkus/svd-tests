@@ -18,7 +18,9 @@ namespace HarpiaCalc.Core
 
             return new SvdCalculatorResult()
             {
-                SingularValues = result.S.ToArray()
+                SingularValues = result.S.ToArray(),
+                LeftSingularVectors = result.U.ToArray(),
+                TransposedRightSingularVectors = result.VT.ToArray(),
             };
         }
     }
