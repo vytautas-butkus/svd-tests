@@ -11,12 +11,6 @@ CORE --> TESTS[HarpiaCalc.Tests]
 MATHNET -.-> CORE
 CORE[HarpiaCalc.Core ] --> CLI[HarpiaCalc.CLI]
 CORE --> GUI[HarpiaCalc.WpfApp]
-<<<<<<< HEAD
-=======
-CORE --> TESTS[HarpiaCalc.Tests]
-MATHNET[MathNet.Numerics] -.-> TESTS
-MATHNET -.-> CORE
->>>>>>> ed5baa885ec9cc5d95577dfe6b72e801e75d4b05
 SCICHART[SciChart] -.-> GUI
 ```
 
